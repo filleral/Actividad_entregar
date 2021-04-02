@@ -18,7 +18,7 @@
                 <ul>
                     <li style="float:right;"><a href="index.htm">Index</a></li>
                     <li><a href="formCliente.htm">Cliente</a></li>
-                    <li><a href="consultar_cliente.htm">Visualizar Clientes</a></li>
+                    <li><a href="consultar_cliente.htm">Consultar Clientes</a></li>
                     <li><a class="active" href="listarcliente.htm">About</a></li>
                 </ul>
             </nav>            

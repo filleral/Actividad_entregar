@@ -9,26 +9,21 @@
                 </div>
                 <div class="carb body">
                     <form action="" method="post">
-
                         <label  Class="input-group-addon">Digite el Nombre: </label>
                         <input type="text" name="nombre" Class="form-control"
                                value='<c:out value="${cli[0].nombre}"></c:out>' />
                         <label  Class="input-group-addon">Digite la Dirección: </label>
                         <input type="text" name="direccion" Class="form-control" 
-                               value='<c:out value="${cli[0].direccion}"></c:out>' />
-                        
+                               value='<c:out value="${cli[0].direccion}"></c:out>' /> 
                         <label name="correo" Class="input-group-addon">Digite el e-Mail: </label>
                         <input type="text" name="correo" Class="form-control"
                                value="<c:out value="${cli[0].correo}"></c:out>" />
-                        
                         <label name="telefono" Class="input-group-addon">Digite el Teléfono: </label>
                         <input type="text" name="telefono" Class="form-control"
-                               value="<c:out value="${cli[0].telefono}"></c:out>" />
-                        
+                               value="<c:out value="${cli[0].telefono}"></c:out>" />        
                         <label name="salario" Class="input-group-addon">Digite el salario: </label>
                         <input type="text" name="salario"  Class="form-control" 
                                value="<c:out value="${cli[0].salario}"></c:out>"/>
-
                         <input type="submit" name="btnEnviar" value="Actualizar datos" class="btn btn-primary btn-md" />
                         <input type="reset" value="Limpiar..." class="btn btn-primary btn-md"/>
                         <a href="formCliente.htm" class="btn btn-primary btn-md">Regresar<a/>

@@ -15,7 +15,7 @@
             <li style="float:right;"><a href="index.htm">Index</a></li>
             <li><a href="formCliente.htm">Cliente</a></li>
             <li><a href="#">Vista Cliente</a></li>
-            <li><a class="active" href="#">About</a></li>
+            <li><a class="active" href="../javadoc/index.html">About</a></li>
         </ul>
     </nav>
         <p>Hello! This is the default welcome page for a Spring Web MVC project.</p>

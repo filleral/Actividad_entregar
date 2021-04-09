@@ -23,7 +23,8 @@ public class homeController {
     private JdbcTemplate jdbcTemplate;
 
     /**
-     *
+     *@since 4 de abril del 2021
+     * @author fille
      */
     public homeController() {
         ConectarDB con = new ConectarDB();
@@ -33,6 +34,8 @@ public class homeController {
     /**
      * @param int numero: este valor sirve para calcular el valor del producto
      * @return: retorna una vista
+     * @since 4 de abril del 2021
+     * @author fille
      */
     @RequestMapping(value="formCliente.htm", method=RequestMethod.GET)
     public ModelAndView home(){
@@ -44,7 +47,8 @@ public class homeController {
     }
 
     /**
-     *
+     *@since 4 de abril del 2021
+     * @author fille
      * @return
      */
     @RequestMapping(value="formCliente.htm", method=RequestMethod.POST)
@@ -61,7 +65,8 @@ public class homeController {
 //------------------ metodo para agregar los datos del cliente ------------------    
 
     /**
-     *
+     *@since 4 de abril del 2021
+     * @author fille
      * @return
      */
         @RequestMapping(value="agregarCliente.htm", method=RequestMethod.GET)
@@ -74,7 +79,8 @@ public class homeController {
     }
 
     /**
-     *
+     *@since 4 de abril del 2021
+     * @author fille
      * @param cli
      * @return
      */
@@ -91,7 +97,8 @@ public class homeController {
  //------------------- metodo para actualiar los datos del cliente --------------
 
     /**
-     *
+     *@since 4 de abril del 2021
+     * @author fille
      * @param request
      * @return
      */
@@ -107,7 +114,8 @@ public class homeController {
     }
 
     /**
-     *
+     *@since 4 de abril del 2021
+     * @author fille
      * @param cli
      * @return
      */
@@ -124,7 +132,8 @@ public class homeController {
 //------------ metodo para eliminar un campo de la tabla +---------------------
 
     /**
-     *
+     *@since 4 de abril del 2021
+     * @author fille
      * @param request
      * @return
      */
@@ -139,7 +148,8 @@ public class homeController {
     }
 
     /**
-     *
+     *@since 4 de abril del 2021
+     * @author fille
      * @return
      */
     @RequestMapping(value="consultar_cliente.htm", method=RequestMethod.GET)
@@ -152,7 +162,8 @@ public class homeController {
     }
 
     /**
-     *
+     *@since 4 de abril del 2021
+     * @author fille
      * @param cli
      * @param result
      * @param status

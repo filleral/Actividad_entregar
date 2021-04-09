@@ -15,47 +15,53 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 /**
- *
+ *@since 20 de marzo del 2021
  * @author fille
  */
 public class ClienteTest {
     
     /**
-     *
+     * @since 4 de abril del 2021
+     * @author fille
      */
     public ClienteTest() {
     }
     
     /**
-     *
+     *@since 4 de abril del 2021
+     * @author fille
      */
     @BeforeClass
     public static void setUpClass() {
     }
     
     /**
-     *
+     *@since 4 de abril del 2021
+     * @author fille
      */
     @AfterClass
     public static void tearDownClass() {
     }
     
     /**
-     *
+     *@since 4 de abril del 2021
+     * @author fille
      */
     @Before
     public void setUp() {
     }
     
     /**
-     *
+     *@since 4 de abril del 2021
+     * @author fille
      */
     @After
     public void tearDown() {
     }
 
     /**
-     * Test of getSalario method, of class Cliente.
+     * @since 4 de abril del 2021
+     * @author fille
      */
     @Test
     public void testGetSalario() {
@@ -69,6 +75,8 @@ public class ClienteTest {
     }
 
     /**
+     * @since 4 de abril del 2021
+     * @author fille
      * Test of setSalario method, of class Cliente.
      */
     @Test
@@ -82,6 +90,8 @@ public class ClienteTest {
     }
 
     /**
+     * @since 4 de abril del 2021
+     * @author fille
      * Test of getNombre method, of class Cliente.
      */
     @Ignore
@@ -96,6 +106,8 @@ public class ClienteTest {
     }
 
     /**
+     * @since 4 de abril del 2021
+     * @author fille
      * Test of setNombre method, of class Cliente.
      */
     @Test
@@ -109,6 +121,8 @@ public class ClienteTest {
     }
 
     /**
+     * @since 4 de abril del 2021
+     * @author fille
      * Test of getDireccion method, of class Cliente.
      */
     @Ignore
@@ -123,6 +137,8 @@ public class ClienteTest {
     }
 
     /**
+     * @since 4 de abril del 2021
+     * @author fille
      * Test of setDireccion method, of class Cliente.
      */
     @Test
@@ -136,6 +152,8 @@ public class ClienteTest {
     }
 
     /**
+     * @since 4 de abril del 2021
+     * @author fille
      * Test of getCorreo method, of class Cliente.
      */
     @Ignore
@@ -150,6 +168,8 @@ public class ClienteTest {
     }
 
     /**
+     * @since 4 de abril del 2021
+     * @author fille
      * Test of setCorreo method, of class Cliente.
      */
     @Test
@@ -163,7 +183,8 @@ public class ClienteTest {
     }
 
     /**
-     * 
+     * @since 4 de abril del 2021
+     * @author fille
      * Test of getTelefono method, of class Cliente.
      * @ignore
      * 
@@ -180,6 +201,8 @@ public class ClienteTest {
     }
 
     /**
+     * @since 4 de abril del 2021
+     * @author fille
      * Test of setTelefono method, of class Cliente.
      */
     @Test
@@ -193,6 +216,8 @@ public class ClienteTest {
     }
 
     /**
+     * @since 4 de abril del 2021
+     * @author fille
      * Test of getId method, of class Cliente.
      */
     @Test
@@ -207,6 +232,8 @@ public class ClienteTest {
     }
 
     /**
+     * @since 4 de abril del 2021
+     * @author fille
      * Test of setId method, of class Cliente.
      */
     @Test

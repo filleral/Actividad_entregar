@@ -32,7 +32,6 @@ public class homeController {
     }
 
     /**
-     * @param int numero: este valor sirve para calcular el valor del producto
      * @return: retorna una vista
      * @since 4 de abril del 2021
      * @author fille

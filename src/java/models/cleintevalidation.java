@@ -5,10 +5,11 @@ import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
 /**
- *
- * @author fille
+ * @version 1.0
+ * @author Santiago
+ * @since 10 marzo 2021
  */
-public class cleintevalidation implements Validator{
+public class cleintevalidation implements Validator {
 
     /**
      *
@@ -17,7 +18,7 @@ public class cleintevalidation implements Validator{
      */
     @Override
     public boolean supports(Class<?> type) {
-        return Cliente.class.isAssignableFrom(type);
+       return Cliente.class.isAssignableFrom(type);
     }
 
     /**

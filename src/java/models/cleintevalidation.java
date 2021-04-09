@@ -1,3 +1,8 @@
+/**@author : filleral mahecha 
+ *En este modelo se valida si el formulario de la views/actualizarCliente.jsp
+ *tiene campos validos ejemplo si el campo nombre esta vacio aparece mensaje
+ * 
+ */
 package models;
 
 import org.springframework.validation.Errors;

@@ -19,7 +19,8 @@ import org.junit.runners.Parameterized.Parameters;
 
 /**
  *
- * @author Santiago
+ * @since 20 de marzo del 2021
+ * @author fille
  */
 @RunWith(value = Parameterized.class)
 public class ProductoreunwithTest {
